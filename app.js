@@ -2,7 +2,7 @@ const express = require('express');
 const bodyParser = require('body-parser');
 const transactionRoutes = require('./routes/transactionRoutes');
 const summaryRoutes = require('./routes/summaryRoutes');
-const { setupDatabase } = require('./db/database');
+const { setupDatabase } = require('./DB/database');
 
 // Initialize the Express app
 const app = express();
